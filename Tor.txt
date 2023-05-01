@@ -1,0 +1,5 @@
+sudo systemctl enable --now tor.service
+
+sudo systemctl status tor
+
+sudo systemctl restart tor
