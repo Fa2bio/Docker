@@ -49,7 +49,7 @@ docker build -t springbootproject .
 <br></br>
 ## <a name="containers"></a>Containers
 
-- Now that the images are ready, let's move on to the containers. Let's start by starting a container for MySQL.
+Now that the images are ready, let's move on to the containers. Let's start by starting a container for MySQL.
 
 ### Terminal
 ```xml
