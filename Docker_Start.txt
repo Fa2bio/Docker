@@ -1,7 +1,0 @@
-## Start Docker Service
-
-- sudo systemctl start docker
-
-## Stop Docker Service
-
-- sudo systemctl stop docker
