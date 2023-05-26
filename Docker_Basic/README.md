@@ -24,3 +24,13 @@ docker kill $(docker ps -q)
 ```xml
 docker stop myContainer
 ```
+
+### Displays All Logs From a Container
+```xml
+docker container logs myContainer
+```
+
+### Displays In Json Format All Container Information
+```xml
+docker container inspect myContainer
+```
