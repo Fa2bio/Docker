@@ -15,6 +15,11 @@ sudo systemctl stop docker
 docker ps
 ```
 
+### Show Containers Created
+```xml
+docker ps -a
+```
+
 ### Stop Containers
 ```xml
 docker kill $(docker ps -q)
@@ -25,6 +30,11 @@ docker kill $(docker ps -q)
 docker stop myContainer
 ```
 
+### Start A Container
+```xml
+docker start myContainer
+```
+
 ### Displays All Logs From a Container
 ```xml
 docker container logs myContainer
@@ -33,4 +43,9 @@ docker container logs myContainer
 ### Displays In Json Format All Container Information
 ```xml
 docker container inspect myContainer
+```
+
+### Delete All Containers
+```xml
+docker rm -f $(docker ps -a -q)
 ```
